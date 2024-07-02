@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        registry = "ibrahim3/myjavaapp"
+        registry = "ibrahim3/myjavaappnew"
         registryCredential = "DockerHub"
     }
     stages {
