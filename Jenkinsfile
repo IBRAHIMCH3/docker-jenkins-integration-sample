@@ -35,5 +35,10 @@ pipeline {
                 }
             }
         }
+        post {
+        always {
+            archiveArtifacts artifacts: 'plan.txt'
+        }
+  }
     }
 }
